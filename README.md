@@ -5,7 +5,7 @@
 ## 目录
 
 | 目录       | 平台             | 说明                   |
-|------------|------------------|------------------------|
+| ---------- | ---------------- | ---------------------- |
 | `macos/`   | macOS (arm64)    | 包装脚本 `convert.sh`  |
 | `linux/`   | Linux (x86_64)   | 包装脚本 `convert.sh`  |
 | `windows/` | Windows (x86_64) | 包装脚本 `convert.bat` |
@@ -54,7 +54,7 @@ docx / odt / rtf / txt / html / epub / fb2 / xlsx / ods / csv / pptx / odp / pdf
 ## 相关文档
 
 - `macos/README.md`、`linux/README.md`、`windows/README.md` — 各平台详细用法
-- `macos/EXTRACTION-GUIDE.md` — 剥离操作手册 (如何在其他平台复刻本工具, 含 x2t 调用方式、参数格式、已踩过的坑)
+- `EXTRACTION-GUIDE.md` — 剥离操作手册 (全平台通用: 新版本/其他平台复刻本工具, 含 x2t 调用方式、参数格式、已踩过的坑)
 
 ## 许可证
 
