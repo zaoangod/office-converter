@@ -273,6 +273,7 @@ Windows 可用脚本调 Edge/查看器截图,或装 Python 的 pdf2image。
 | 转换 exit=0 但无输出文件、无任何报错 | 输入文件损坏,或格式不受支持 | 换 5.1 的标准测试文件排除 |
 | Linux 中文变方框 | 系统无 CJK 字体 | 装 fonts-noto-cjk 后重建字体缓存 |
 | ldd 报 not found | 缺系统库 | 按缺的包装对应系统包 |
+| Windows 报 `Couldn't recognize conversion direction from an argument` | params.xml 声明 utf-8 但实际是 ANSI/GBK 字节(cmd `echo` 按控制台代码页写文件, 中文路径必现) | 用 PowerShell `[IO.File]::WriteAllText` 写 UTF-8, 路径用 `[Security.SecurityElement]::Escape` 转义 |
 
 ## 6. 许可证提醒
 
